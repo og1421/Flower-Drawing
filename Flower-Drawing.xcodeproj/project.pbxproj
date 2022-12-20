@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		852DA17829526246000DBB7A /* Flower_DrawingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852DA17729526246000DBB7A /* Flower_DrawingApp.swift */; };
+		852DA17A29526246000DBB7A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852DA17929526246000DBB7A /* ContentView.swift */; };
+		852DA17C29526248000DBB7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 852DA17B29526248000DBB7A /* Assets.xcassets */; };
+		852DA18029526248000DBB7A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 852DA17F29526248000DBB7A /* Preview Assets.xcassets */; };
+		852DA18A29526248000DBB7A /* Flower_DrawingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852DA18929526248000DBB7A /* Flower_DrawingTests.swift */; };
+		852DA19429526248000DBB7A /* Flower_DrawingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852DA19329526248000DBB7A /* Flower_DrawingUITests.swift */; };
+		852DA19629526248000DBB7A /* Flower_DrawingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852DA19529526248000DBB7A /* Flower_DrawingUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		852DA18629526248000DBB7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 852DA16C29526246000DBB7A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 852DA17329526246000DBB7A;
+			remoteInfo = "Flower-Drawing";
+		};
+		852DA19029526248000DBB7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 852DA16C29526246000DBB7A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 852DA17329526246000DBB7A;
+			remoteInfo = "Flower-Drawing";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		852DA17429526246000DBB7A /* Flower-Drawing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Flower-Drawing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		852DA17729526246000DBB7A /* Flower_DrawingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flower_DrawingApp.swift; sourceTree = "<group>"; };
+		852DA17929526246000DBB7A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		852DA17B29526248000DBB7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		852DA17D29526248000DBB7A /* Flower_Drawing.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Flower_Drawing.entitlements; sourceTree = "<group>"; };
+		852DA17F29526248000DBB7A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		852DA18529526248000DBB7A /* Flower-DrawingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Flower-DrawingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		852DA18929526248000DBB7A /* Flower_DrawingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flower_DrawingTests.swift; sourceTree = "<group>"; };
+		852DA18F29526248000DBB7A /* Flower-DrawingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Flower-DrawingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		852DA19329526248000DBB7A /* Flower_DrawingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flower_DrawingUITests.swift; sourceTree = "<group>"; };
+		852DA19529526248000DBB7A /* Flower_DrawingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flower_DrawingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		852DA17129526246000DBB7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		852DA18229526248000DBB7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		852DA18C29526248000DBB7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		852DA16B29526246000DBB7A = {
+			isa = PBXGroup;
+			children = (
+				852DA17629526246000DBB7A /* Flower-Drawing */,
+				852DA18829526248000DBB7A /* Flower-DrawingTests */,
+				852DA19229526248000DBB7A /* Flower-DrawingUITests */,
+				852DA17529526246000DBB7A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		852DA17529526246000DBB7A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				852DA17429526246000DBB7A /* Flower-Drawing.app */,
+				852DA18529526248000DBB7A /* Flower-DrawingTests.xctest */,
+				852DA18F29526248000DBB7A /* Flower-DrawingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		852DA17629526246000DBB7A /* Flower-Drawing */ = {
+			isa = PBXGroup;
+			children = (
+				852DA17729526246000DBB7A /* Flower_DrawingApp.swift */,
+				852DA17929526246000DBB7A /* ContentView.swift */,
+				852DA17B29526248000DBB7A /* Assets.xcassets */,
+				852DA17D29526248000DBB7A /* Flower_Drawing.entitlements */,
+				852DA17E29526248000DBB7A /* Preview Content */,
+			);
+			path = "Flower-Drawing";
+			sourceTree = "<group>";
+		};
+		852DA17E29526248000DBB7A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				852DA17F29526248000DBB7A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		852DA18829526248000DBB7A /* Flower-DrawingTests */ = {
+			isa = PBXGroup;
+			children = (
+				852DA18929526248000DBB7A /* Flower_DrawingTests.swift */,
+			);
+			path = "Flower-DrawingTests";
+			sourceTree = "<group>";
+		};
+		852DA19229526248000DBB7A /* Flower-DrawingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				852DA19329526248000DBB7A /* Flower_DrawingUITests.swift */,
+				852DA19529526248000DBB7A /* Flower_DrawingUITestsLaunchTests.swift */,
+			);
+			path = "Flower-DrawingUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		852DA17329526246000DBB7A /* Flower-Drawing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 852DA19929526248000DBB7A /* Build configuration list for PBXNativeTarget "Flower-Drawing" */;
+			buildPhases = (
+				852DA17029526246000DBB7A /* Sources */,
+				852DA17129526246000DBB7A /* Frameworks */,
+				852DA17229526246000DBB7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Flower-Drawing";
+			productName = "Flower-Drawing";
+			productReference = 852DA17429526246000DBB7A /* Flower-Drawing.app */;
+			productType = "com.apple.product-type.application";
+		};
+		852DA18429526248000DBB7A /* Flower-DrawingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 852DA19C29526248000DBB7A /* Build configuration list for PBXNativeTarget "Flower-DrawingTests" */;
+			buildPhases = (
+				852DA18129526248000DBB7A /* Sources */,
+				852DA18229526248000DBB7A /* Frameworks */,
+				852DA18329526248000DBB7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				852DA18729526248000DBB7A /* PBXTargetDependency */,
+			);
+			name = "Flower-DrawingTests";
+			productName = "Flower-DrawingTests";
+			productReference = 852DA18529526248000DBB7A /* Flower-DrawingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		852DA18E29526248000DBB7A /* Flower-DrawingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 852DA19F29526248000DBB7A /* Build configuration list for PBXNativeTarget "Flower-DrawingUITests" */;
+			buildPhases = (
+				852DA18B29526248000DBB7A /* Sources */,
+				852DA18C29526248000DBB7A /* Frameworks */,
+				852DA18D29526248000DBB7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				852DA19129526248000DBB7A /* PBXTargetDependency */,
+			);
+			name = "Flower-DrawingUITests";
+			productName = "Flower-DrawingUITests";
+			productReference = 852DA18F29526248000DBB7A /* Flower-DrawingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		852DA16C29526246000DBB7A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					852DA17329526246000DBB7A = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					852DA18429526248000DBB7A = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 852DA17329526246000DBB7A;
+					};
+					852DA18E29526248000DBB7A = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 852DA17329526246000DBB7A;
+					};
+				};
+			};
+			buildConfigurationList = 852DA16F29526246000DBB7A /* Build configuration list for PBXProject "Flower-Drawing" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 852DA16B29526246000DBB7A;
+			productRefGroup = 852DA17529526246000DBB7A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				852DA17329526246000DBB7A /* Flower-Drawing */,
+				852DA18429526248000DBB7A /* Flower-DrawingTests */,
+				852DA18E29526248000DBB7A /* Flower-DrawingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		852DA17229526246000DBB7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				852DA18029526248000DBB7A /* Preview Assets.xcassets in Resources */,
+				852DA17C29526248000DBB7A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		852DA18329526248000DBB7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		852DA18D29526248000DBB7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		852DA17029526246000DBB7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				852DA17A29526246000DBB7A /* ContentView.swift in Sources */,
+				852DA17829526246000DBB7A /* Flower_DrawingApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		852DA18129526248000DBB7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				852DA18A29526248000DBB7A /* Flower_DrawingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		852DA18B29526248000DBB7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				852DA19629526248000DBB7A /* Flower_DrawingUITestsLaunchTests.swift in Sources */,
+				852DA19429526248000DBB7A /* Flower_DrawingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		852DA18729526248000DBB7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 852DA17329526246000DBB7A /* Flower-Drawing */;
+			targetProxy = 852DA18629526248000DBB7A /* PBXContainerItemProxy */;
+		};
+		852DA19129526248000DBB7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 852DA17329526246000DBB7A /* Flower-Drawing */;
+			targetProxy = 852DA19029526248000DBB7A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		852DA19729526248000DBB7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		852DA19829526248000DBB7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		852DA19A29526248000DBB7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Flower-Drawing/Flower_Drawing.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Flower-Drawing/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "orlandomoraesmartins.Flower-Drawing";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		852DA19B29526248000DBB7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Flower-Drawing/Flower_Drawing.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Flower-Drawing/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "orlandomoraesmartins.Flower-Drawing";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		852DA19D29526248000DBB7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "orlandomoraesmartins.Flower-DrawingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Flower-Drawing.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Flower-Drawing";
+			};
+			name = Debug;
+		};
+		852DA19E29526248000DBB7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "orlandomoraesmartins.Flower-DrawingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Flower-Drawing.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Flower-Drawing";
+			};
+			name = Release;
+		};
+		852DA1A029526248000DBB7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "orlandomoraesmartins.Flower-DrawingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Flower-Drawing";
+			};
+			name = Debug;
+		};
+		852DA1A129526248000DBB7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "orlandomoraesmartins.Flower-DrawingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Flower-Drawing";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		852DA16F29526246000DBB7A /* Build configuration list for PBXProject "Flower-Drawing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				852DA19729526248000DBB7A /* Debug */,
+				852DA19829526248000DBB7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		852DA19929526248000DBB7A /* Build configuration list for PBXNativeTarget "Flower-Drawing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				852DA19A29526248000DBB7A /* Debug */,
+				852DA19B29526248000DBB7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		852DA19C29526248000DBB7A /* Build configuration list for PBXNativeTarget "Flower-DrawingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				852DA19D29526248000DBB7A /* Debug */,
+				852DA19E29526248000DBB7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		852DA19F29526248000DBB7A /* Build configuration list for PBXNativeTarget "Flower-DrawingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				852DA1A029526248000DBB7A /* Debug */,
+				852DA1A129526248000DBB7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 852DA16C29526246000DBB7A /* Project object */;
+}
